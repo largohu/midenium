@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240915151814">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__action action-header">
+						<div class="action-header__logo">
+							<a href="home.html">
+								<picture>
+									<source srcset="img/header/logo-mobile@2x.png" src="img/header/logo-mobile.png" media="(max-width: 768px)" />
+									<source srcset="img/header/logo@2x.png" media="(min-width: 769px)" />
+									<img src="img/header/logo.png" alt="Responsive Banner" />
+								</picture>
+							</a>
+						</div>
+
+						<div class="action-header__nav nav-action">
+							<div class="icon-menu">
+								<ul class="icon-list">
+									<li class="icon-item-1"></li>
+									<li class="icon-item-2"></li>
+									<li class="icon-item-3"></li>
+								</ul>
+							</div>
+							<ul data-da=".burger__nav,768,0" class="nav-action__list">
+								<li class="nav-action__item">
+									<a href="home.html" class="nav-action__link">Главная</a>
+								</li>
+								<li class="nav-action__item">
+									<a href="price.html" class="nav-action__link">Цены</a>
+								</li>
+								<li class="nav-action__item">
+									<a href="favorites.html" class="nav-action__link">
+										Кейсы и отзывы
+									</a>
+								</li>
+								<li class="nav-action__item">
+									<a href="contact.html" class="nav-action__link">Контакты</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="header__connect connect-header">
+						<ul class="connect-header__list">
+							<li class="connect-header__item">
+								<a href="#!" class="connect-header__link"><picture><source srcset="img/header/telegram.webp, img/header/telegram@2x.webp" type="image/webp"><img src="img/header/telegram.png" srcset="img/header/telegram@2x.png" alt="" /></picture></a>
+							</li>
+							<li class="connect-header__item">
+								<a href="#!" class="connect-header__link"><picture><source srcset="img/header/whatsapp.webp, img/header/whatsapp@2x.webp" type="image/webp"><img src="img/header/whatsapp.png" srcset="img/header/whatsapp@2x.png" alt="" /></picture></a>
+							</li>
+						</ul>
+						<div class="connect-header__contact contact-connect">
+							<div class="contact-connect__phone">
+								<a href="tel:74955556565">+ 7 (495) 555 65 65</a>
+								<p>Ежедневно с 09:00 до 18:00</p>
+							</div>
+							<button type="submit" class="contact-connect__btn">
+								Заказать звонок
+							</button>
+						</div>
+						<div class="connect-header__phone">
+							<a href="#!">
+								<picture><source srcset="img/header/phone.webp, img/header/phone@2x.webp" type="image/webp"><img src="img/header/phone.png" srcset="img/header/phone@2x.png" alt="" /></picture>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="burger-menu burger">
+				<div class="burger__container">
+					<div class="burger__body">
+						<div class="burger__close">
+							<a href="#!">
+								<picture><source srcset="img/header/close.webp, img/header/close@2x.webp" type="image/webp"><img src="img/header/close.png" srcset="img/header/close@2x.png" alt="" /></picture></a>
+						</div>
+						<div class="burger__nav">
+							<div class="burger__info">
+								<a href="mailto:info@millenium.ru" class="burger__mail">info@millenium.ru</a>
+								<a href="tel:74957926669" class="burger__phone">
+									+7 (495) 792-66-69 пн-пт 10:00–19:00
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<main class="page">
+			<section class="expertise">
+				<div class="expertise__container">
+					<div class="expertise__body">
+						<div class="expertise__text">
+							<div class="expertise__info">
+								<h2>Цифровая экспертиза</h2>
+								<p>
+									Разработка современных, быстрых и удобных WEB приложений
+									что-бы ваши клиенты были счестливы.
+								</p>
+							</div>
+							<a href="price.html" class="expertise__btn">
+								<button type="submit">Узнать стоимость</button>
+							</a>
+						</div>
+						<div data-da=".expertise__info, 768, 1" class="expertise__img">
+							<picture><source srcset="img/expertise/1.webp, img/expertise/1@2x.webp" type="image/webp"><img src="img/expertise/1.png" srcset="img/expertise/1@2x.png" alt="" /></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="features">
+				<div class="features__container">
+					<div class="features__body">
+						<h2 class="features__title">
+							Мы создаем интернет-магазины, которые продают
+						</h2>
+						<div class="features__carts">
+							<ul class="features__list">
+								<li class="features__cart cart-features">
+									<div class="cart-features__number">01</div>
+									<h2 class="cart-features__title">Удобный интерфейс</h2>
+									<div class="cart-features__line"></div>
+									<p class="cart-features__text">
+										Блоковая подача информации, удобные кнопки, карточки
+										товаров, понятное меню и легкая навигация.
+									</p>
+								</li>
+								<li class="features__cart cart-features">
+									<div class="cart-features__number">02</div>
+									<h2 class="cart-features__title">Продающая структура</h2>
+									<div class="cart-features__line"></div>
+									<p class="cart-features__text">
+										Создаем структуру сайта опираясь на анализ целевой
+										аудитории.
+									</p>
+								</li>
+								<li class="features__cart cart-features">
+									<div class="cart-features__number">03</div>
+									<h2 class="cart-features__title">Адаптивность</h2>
+									<div class="cart-features__line"></div>
+									<p class="cart-features__text">
+										Блоковая подача информации, удобные кнопки, карточки
+										товаров, понятное меню и легкая навигация.
+									</p>
+								</li>
+								<li class="features__cart cart-features">
+									<div class="cart-features__number">04</div>
+									<h2 class="cart-features__title">Адаптивность</h2>
+									<div class="cart-features__line"></div>
+									<p class="cart-features__text">
+										Блоковая подача информации, удобные кнопки, карточки
+										товаров, понятное меню и легкая навигация.
+									</p>
+								</li>
+								<li class="features__cart cart-features">
+									<div class="cart-features__number">05</div>
+									<h2 class="cart-features__title">Адаптивность</h2>
+									<div class="cart-features__line"></div>
+									<p class="cart-features__text">
+										Блоковая подача информации, удобные кнопки, карточки
+										товаров, понятное меню и легкая навигация.
+									</p>
+								</li>
+								<li class="features__cart cart-features">
+									<div class="cart-features__number">06</div>
+									<h2 class="cart-features__title">Адаптивность</h2>
+									<div class="cart-features__line"></div>
+									<p class="cart-features__text">
+										Блоковая подача информации, удобные кнопки, карточки
+										товаров, понятное меню и легкая навигация.
+									</p>
+								</li>
+							</ul>
+						</div>
+						<a href="price.html" class="features__btn">
+							<button type="submit">Узнать стоимость</button>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="benefits">
+				<div class="benefits__container">
+					<div class="benefits__body">
+						<h2 class="benefits__title">Что вы <span>получаете ?</span></h2>
+						<div class="benefits__menu">
+							<ul class="benefits__list">
+								<li class="benefits__item item-benefits">
+									<div class="item-benefits__img">
+										<picture><source srcset="img/benefits/1.webp, img/benefits/1@2x.webp" type="image/webp"><img src="img/benefits/1.png" srcset="img/benefits/1@2x.png" alt="" /></picture>
+									</div>
+									<div class="item-benefits__text">
+										<span class="item-benefits__title">Каталог товаров</span>
+										<ul class="item-benefits__list">
+											<li class="item-benefits__item">
+												<p>
+													возможность выгружать свои товары в неограниченном
+													количестве
+												</p>
+											</li>
+											<li class="item-benefits__item">
+												<p>добавлять и редактировать описание товаров</p>
+											</li>
+											<li class="item-benefits__item">
+												<p>сортировать товары по заданным критериям</p>
+											</li>
+											<li class="item-benefits__item">
+												<p>
+													моментальная оплата товара или оформление при помощи
+													добавления корзины
+												</p>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="benefits__item item-benefits">
+									<div class="item-benefits__text">
+										<span class="item-benefits__title">Оформление заказа</span>
+										<ul class="item-benefits__list">
+											<li class="item-benefits__item">
+												<p>личный кабинет</p>
+											</li>
+											<li class="item-benefits__item">
+												<p>корзина с отображением выбранных товаров</p>
+											</li>
+											<li class="item-benefits__item">
+												<p>оформление заказа с указанием контактных данных</p>
+											</li>
+											<li class="item-benefits__item">
+												<p>возможность приема онлайн-платежей</p>
+											</li>
+											<li class="item-benefits__item">
+												<p>
+													использование купонов, скидок и специальных
+													предложений
+												</p>
+											</li>
+										</ul>
+									</div>
+									<div class="item-benefits__img">
+										<picture><source srcset="img/benefits/2.webp, img/benefits/2@2x.webp" type="image/webp"><img src="img/benefits/2.png" srcset="img/benefits/2@2x.png" alt="" /></picture>
+									</div>
+								</li>
+								<li class="benefits__item item-benefits">
+									<div class="item-benefits__img">
+										<picture><source srcset="img/benefits/3.webp, img/benefits/3@2x.webp" type="image/webp"><img src="img/benefits/3.png" srcset="img/benefits/3@2x.png" alt="" /></picture>
+									</div>
+									<div class="item-benefits__text">
+										<span class="item-benefits__title">Интеграции</span>
+										<ul class="item-benefits__list">
+											<li class="item-benefits__item">
+												<p>
+													1С, Мой склад (выгрузка товаров на сайт, полная
+													синхронизация)
+												</p>
+											</li>
+											<li class="item-benefits__item">
+												<p>
+													Маркетплейсы (Яндекс.Маркет, Wildberries, Goods,
+													Ozon)
+												</p>
+											</li>
+											<li class="item-benefits__item">
+												<p>
+													Интеграция со службами доставки СДЭК, Почта России
+												</p>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="benefits__item item-benefits">
+									<div class="item-benefits__text">
+										<span class="item-benefits__title">CRM</span>
+										<ul class="item-benefits__list">
+											<li class="item-benefits__item">
+												<p>фиксация и отслеживание поступивших заявок</p>
+											</li>
+											<li class="item-benefits__item">
+												<p>уведомления о заказах</p>
+											</li>
+											<li class="item-benefits__item">
+												<p>отчетность магазина</p>
+											</li>
+										</ul>
+									</div>
+									<div class="item-benefits__img">
+										<picture><source srcset="img/benefits/4.webp, img/benefits/4@2x.webp" type="image/webp"><img src="img/benefits/4.png" srcset="img/benefits/4@2x.png" alt="" /></picture>
+									</div>
+								</li>
+							</ul>
+							<a href="price.html" class="benefits__btn">
+								<button type="submit">Узнать стоимость</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="certificates">
+				<div class="certificates__container">
+					<div class="certificates__body">
+						<div class="certificates__content">
+							<div class="certificates__medals">
+								<picture><source srcset="img/certificates/1.webp, img/certificates/1@2x.webp" type="image/webp"><img src="img/certificates/1.png" srcset="img/certificates/1@2x.png" alt="" /></picture>
+							</div>
+							<div class="certificates__before"></div>
+							<div class="certificates__slider mySwiper">
+								<div class="certificates__swiper swiper-wrapper">
+									<div class="certificates__slide certificates__block swiper-slide">
+										<div class="certificates__text">
+											<span>Сертификат</span>
+											<p>Золотой сертифицированный партнер битрикс</p>
+										</div>
+										<div class="certificates__img">
+											<picture><source srcset="img/certificates/2.webp, img/certificates/2@2x.webp" type="image/webp"><img src="img/certificates/2.png" srcset="img/certificates/2@2x.png" alt="" /></picture>
+										</div>
+									</div>
+									<div class="certificates__slide certificates__block swiper-slide">
+										<div class="certificates__text">
+											<span>Сертификат</span>
+											<p>Прграммы мониторинга качества внедрений</p>
+										</div>
+										<div class="certificates__img">
+											<picture><source srcset="img/certificates/3.webp, img/certificates/3@2x.webp" type="image/webp"><img src="img/certificates/3.png" srcset="img/certificates/3@2x.png" alt="" /></picture>
+										</div>
+									</div>
+								</div>
+								<div class="certificates__dotts"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="business">
+				<div class="business__container">
+					<div class="business__body">
+						<h2 class="business__title">Исследуем <span>бизнес</span></h2>
+						<div class="business__content">
+							<div class="business__text">
+								<p>
+									Каждый клиент – своя история. Мы не берем шаблонные решения,
+									а исследуем рынок конкретно под ваши цели и задачи.
+									<br />
+									<br />Сделать интернет-магазин с нуля непросто. Нужен сайт с
+									качественной разработкой дизайна, который не будет отвлекать
+									от сути, наполнением и рабочими модулями. Кроме этого, для
+									успешного запуска электронной торговой площадки владельцу
+									бизнеса требуется найти поставщиков, выбрать товарные
+									позиции, просчитать рентабельность, уладить другие
+									организационные вопросы вне сети. <br />
+									<br />Создание интернет-магазина лучше делегировать на
+									профессионалов. Мы возьмем на себя вопросы по разработке
+									интернет-магазина под ключ. Специалисты компании
+									предоставляют заказчику готовый продающий сайт. Он уже
+									наполнен контентом, ориентирован на конечного потребителя и
+									интуитивно понятен для заказчика.
+								</p>
+							</div>
+							<div class="business__img">
+								<picture><source srcset="img/business/1.webp, img/business/1@2x.webp" type="image/webp"><img src="img/business/1.png" srcset="img/business/1@2x.png" alt="" /></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="stages">
+				<div class="stages__container">
+					<div class="stages__body">
+						<h2 class="stages__title">Этапы</h2>
+						<div class="stages__content">
+							<div class="stages__text">
+								<svg xmlns="http://www.w3.org/2000/svg" width="23" height="378" viewBox="0 0 23 378" fill="none">
+									<line x1="11.5" y1="1.08087e-07" x2="11.5" y2="378" stroke="#BDBDBD" stroke-width="5" />
+									<circle cx="11.5" cy="11.5" r="11.5" fill="#9E77ED" />
+									<circle cx="11.5" cy="82.5" r="11.5" fill="#BDBDBD" />
+									<circle cx="11.5" cy="153.5" r="11.5" fill="#BDBDBD" />
+									<circle cx="11.5" cy="224.5" r="11.5" fill="#BDBDBD" />
+									<circle cx="11.5" cy="295.5" r="11.5" fill="#BDBDBD" />
+									<circle cx="11.5" cy="366.5" r="11.5" fill="#BDBDBD" />
+								</svg>
+								<ul>
+									<li>
+										<p>01. Маркетинговый анализ бизнеса</p>
+									</li>
+									<li>
+										<p>02. Маркетинговый анализ бизнеса</p>
+									</li>
+									<li>
+										<p>03. Маркетинговый анализ бизнеса</p>
+									</li>
+									<li>
+										<p>04. Маркетинговый анализ бизнеса</p>
+									</li>
+									<li>
+										<p>05. Маркетинговый анализ бизнеса</p>
+									</li>
+									<li>
+										<p>06. Маркетинговый анализ бизнеса</p>
+									</li>
+								</ul>
+							</div>
+							<div class="stages__block">
+								<div class="stages__items items-stages">
+									<div class="items-stages__title">
+										<div class="items-stages__number"><span>01</span></div>
+										<p>Маркетинговый анализ бизнеса</p>
+									</div>
+									<div class="items-stages__content">
+										<div class="items-stages__text">
+											<p>
+												На предварительном этапе мы выясняем специфику вашего
+												бизнеса, товаров. Отмечаем ваши преимущества и
+												уникальные предложения, изучаем ожидания и потребности
+												целевой аудитории, рассматриваем ближайшее
+												конкурентное окружение. <br /><br />
+												На основании полученных данных мы разрабатываем
+												прототип интернет-магазина, пишем техническое ТЗ для
+												специалистов, готовим рекомендации по текстовому
+												наполнению с учетом требований SEO, разрабатываем план
+												по внешней и внутренней оптимизации сайта. Также мы
+												создаем набор готовых элементов для пользовательского
+												интерфейса.
+											</p>
+										</div>
+										<div class="items-stages__img">
+											<picture><source srcset="img/stages/01.webp, img/stages/01@2x.webp" type="image/webp"><img src="img/stages/01.png" srcset="img/stages/01@2x.png" alt="" /></picture>
+										</div>
+									</div>
+								</div>
+								<div class="stages__items items-stages">
+									<div class="items-stages__title">
+										<div class="items-stages__number"><span>02</span></div>
+										<p>Привлекательный дизайн</p>
+									</div>
+									<div class="items-stages__content">
+										<div class="items-stages__text">
+											<p>
+												Интерфейс сайта будет соответствовать современным
+												требованиям и отвечать ожиданиям целевой аудитории.
+												Опытные специалисты Millenium создадут UX-дизайн,
+												отталкиваясь от данных анализа пользовательского
+												поведения, что позволит в несколько раз увеличить
+												конверсию.
+												<br /><br />
+												Мы подберем оптимальные цветовые сочетания (основной,
+												дополнительные, акцентные цвета), уделим внимание
+												четкости графики, наглядности интерфейса, понятной и
+												лаконичной визуализации.
+											</p>
+										</div>
+										<div class="items-stages__img">
+											<picture><source srcset="img/stages/02.webp, img/stages/02@2x.webp" type="image/webp"><img src="img/stages/02.png" srcset="img/stages/02@2x.png" alt="" /></picture>
+										</div>
+									</div>
+								</div>
+								<div class="stages__items items-stages">
+									<div class="items-stages__title">
+										<div class="items-stages__number"><span>03</span></div>
+										<p>Профессиональная верстка</p>
+									</div>
+									<div class="items-stages__content">
+										<div class="items-stages__text">
+											<p>
+												Мы производим верстку по стандарту Pixel Perfect,
+												который предполагает точное соответствие сверстанных
+												страниц дизайн-макету. Наши специалисты напишут чистый
+												код с двухфакторной проверкой, позволяющий обеспечить
+												высокую скорость загрузки на любых браузерах и
+												электронных устройствах (десктопных и мобильных).
+												<br /><br />
+												Профессиональная адаптивная верстка является важным
+												условием бесперебойной надежной работы сайта на
+												протяжении длительного времени.
+											</p>
+										</div>
+										<div class="items-stages__img">
+											<picture><source srcset="img/stages/03.webp, img/stages/03@2x.webp" type="image/webp"><img src="img/stages/03.png" srcset="img/stages/03@2x.png" alt="" /></picture>
+										</div>
+									</div>
+								</div>
+								<div class="stages__items items-stages">
+									<div class="items-stages__title">
+										<div class="items-stages__number"><span>04</span></div>
+										<p>«Посадка» на CMS</p>
+									</div>
+									<div class="items-stages__content">
+										<div class="items-stages__text">
+											<p>
+												Невозможно представить интернет-магазин без системы
+												управления сайтом. Специалисты Millenium выполнят
+												посадку готовой верстки вашего магазина на CMS №1 в
+												странах СНГ - 1с Битрикс. <br /><br />
+												Благодаря CMS, вы просто заходите в административную
+												панель, и, при помощи понятных полей, легко управляете
+												содержимым — редактируете новости, вносите коррективы
+												в товары, добавляет фото и видеоконтент, модерируете и
+												выполняете множество других действий, которые без CMS
+												были бы сущим кошмаром.
+											</p>
+										</div>
+										<div class="items-stages__img">
+											<picture><source srcset="img/stages/04.webp, img/stages/04@2x.webp" type="image/webp"><img src="img/stages/04.png" srcset="img/stages/04@2x.png" alt="" /></picture>
+										</div>
+									</div>
+								</div>
+								<div class="stages__items items-stages">
+									<div class="items-stages__title">
+										<div class="items-stages__number"><span>05</span></div>
+										<p>Тестирование и доработка</p>
+									</div>
+									<div class="items-stages__content">
+										<div class="items-stages__text">
+											<p>
+												Чтобы избежать проблем во время использования сайта,
+												на данном этапе мы отрабатываем все возможные сценарии
+												взаимодействия пользователей с сайтом. Это позволяет
+												вовремя выявить ошибки и устранить их. Мы тестируем
+												usability и безопасность сайта, проверяем скорость
+												загрузки страниц, работу форм обратной связи и
+												интерактивных элементов, отображение страниц на разных
+												устройствах. Это позволяет на 100% гарантировать
+												функциональность ресурса.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="stages__items items-stages">
+									<div class="items-stages__title">
+										<div class="items-stages__number"><span>06</span></div>
+										<p>Запуск сайта</p>
+									</div>
+									<div class="items-stages__content">
+										<div class="items-stages__text">
+											<p>
+												Когда все проверено и выполнены все нужные доработки,
+												остается лишь выполнить грамотный запуск сайта. Наши
+												специалисты сверяют всё по чек-листу, чтобы избежать
+												неприятностей и получить на выходе идеальный
+												интернет-магазин с высокой конверсией. Сайт от
+												профессионалов Millenium позволит вам легко привлекать
+												новых клиентов и станет достойным лицом вашей компании
+												в интернете.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="img">
+				<picture><source srcset="img/mgs/1.webp, img/mgs/1@2x.webp" type="image/webp"><img src="img/mgs/1.png" srcset="img/mgs/1@2x.png" alt="" /></picture>
+			</section>
+			<section class="connect">
+				<div class="connect__container">
+					<div class="connect__body">
+						<div class="connect__content">
+							<div class="connect__text">
+								<h2>Компания Millenium-</h2>
+								<p>
+									Это дорогая и долгая разработка интернет-магазинов на 1С
+									Битрикс! Нельзя сделать
+									<span> качественный</span> цифровой продукт за дешево и
+									быстро! <br />
+									<br />Мы создадим интернет-магазин с нуля. Заказчику не
+									придется искать других IT-специалистов для дальнейшей
+									настройки и запуска сайта. Мы настроим сервисы, интегрируем
+									модули для онлайн-торговли, добавим контент и товары. Работы
+									по созданию интернет-магазина с нуля ведутся только после
+									анализа ниши бизнеса.
+								</p>
+							</div>
+							<form class="connect__contact contact-connect">
+								<div class="contact-connect__text">
+									<h2>Звоните нам по телефону +7 (495) 792-66-69</h2>
+									<p>
+										или закажите обратный звонок чтобы получить ответы на все
+										интересующие вас вопросы.
+									</p>
+								</div>
+								<div class="contact-connect__inputs">
+									<input class="input" type="text" placeholder="Введите ваше имя" />
+									<input class="input" type="tel" placeholder="+ 7 (999) 999 99 99" />
+								</div>
+								<div class="contact-connect__btns">
+									<button type="button">Перезвоните мне</button>
+									<div class="checkbox">
+										<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+										<label for="c_1" class="checkbox__label">
+											<p class="checkbox__text">
+												<span> Cогласен/а на </span>
+												обработку персональных данных
+											</p>
+										</label>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="connect__img img1">
+							<picture><source srcset="img/connect/1.webp, img/connect/1@2x.webp" type="image/webp"><img src="img/connect/1.png" srcset="img/connect/1@2x.png" alt="" /></picture>
+						</div>
+						<div class="connect__img img2">
+							<picture><source srcset="img/connect/2.webp, " type="image/webp"><img src="img/connect/2.png" srcset="" alt="img/connect/2@2x.png" /></picture>
+						</div>
+						<div class="connect__img img3">
+							<picture><source srcset="img/connect/3.webp, " type="image/webp"><img src="img/connect/3.png" srcset="" alt="img/connect/3@2x.png" /></picture>
+						</div>
+						<div class="connect__img img4">
+							<picture><source srcset="img/connect/4.webp, " type="image/webp"><img src="img/connect/4.png" srcset="" alt="img/connect/4@2x.png" /></picture>
+						</div>
+						<div class="connect__img img5">
+							<picture><source srcset="img/connect/5.webp, " type="image/webp"><img src="img/connect/5.png" srcset="" alt="img/connect/5@2x.png" /></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__top top-footer">
+						<div class="top-footer__contact">
+							<p>Напишите нам</p>
+							<a href="mailto:info@millenium.ru">info@millenium.ru</a>
+						</div>
+						<div data-da=".footer__down, 660, 0" class="top-footer__btn">
+							<button type="submit">Заказать звонок</button>
+						</div>
+					</div>
+					<div class="footer__line"></div>
+					<div class="footer__down down-footer">
+						<div class="down-footer__company company-down">
+							<div class="company-down__general">
+								<div class="company-down__location">
+									Москва, ул. Профсоюзная 76, БЦ «ГАЛЕРЕЯ 76» 2 этаж
+								</div>
+								<div class="company-down__phone">
+									+7 (495) 792-66-69 пн-пт 10:00–19:00
+								</div>
+							</div>
+							<div data-da=".footer__down, 650, 1" class="company-down__social">
+								<ul class="company-down__list">
+									<li class="company-down__item">
+										<a href="#!"><picture><source srcset="img/footer/telegram.webp, img/footer/telegram@2x.webp" type="image/webp"><img src="img/footer/telegram.png" srcset="img/footer/telegram@2x.png" alt="" /></picture></a>
+									</li>
+									<li class="company-down__item">
+										<a href="#!"><picture><source srcset="img/footer/whatsapp.webp, img/footer/whatsapp@2x.webp" type="image/webp"><img src="img/footer/whatsapp.png" srcset="img/footer/whatsapp@2x.png" alt="" /></picture></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="down-footer__info info-down">
+							<div class="info-down__body">
+								<a href="home.html" class="info-down__logo">
+									<picture><source srcset="img/footer/logo.webp, img/footer/logo@2x.webp" type="image/webp"><img src="img/footer/logo.png" srcset="img/footer/logo@2x.png" alt="" /></picture>
+								</a>
+								<div class="info-down__text">
+									<p>
+										© 2018–2021 | Millenium - создание интернет-магазинов на 1С
+										Битрикс
+									</p>
+									<a href="#!">Политика конфиденциальности</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+	<script src="js/app.min.js?_v=20240915151814"></script>
+</body>
+
+</html>
